@@ -1,0 +1,16 @@
+# Binarios y temporales: no van al repositorio
+# ffmpeg/ffprobe estáticos pesan 169 MB cada uno y GitHub rechaza archivos >100 MB.
+produccion/bin/
+produccion/cache/
+produccion/tmp/
+produccion/generacion.log
+
+# Audio final: sí se versiona (99 MB en total, cada MP3 < 13 MB).
+# Si prefieres un repo ligero, descomenta la línea siguiente y publica el audio aparte.
+# audio/
+
+# Sistema
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
