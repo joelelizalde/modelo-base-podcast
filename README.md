@@ -109,6 +109,8 @@ Los valores exactos están en `audio/`; el generador imprime la duración al ter
 
 ## Publicación
 
+Repositorio: https://github.com/joelelizalde/modelo-base-podcast
+
 Empieza por `distribucion/kit-spotify.md`. Resumen:
 
 1. Crear el podcast en Spotify for Creators con la ficha y la portada.
